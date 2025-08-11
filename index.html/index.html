@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free Fire Special Giveaway S50</title>
+  <style>
+    body {
+      background-color: #1f1b42;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      color: #0bb39c;
+      cursor: pointer;
+    }
+    h1 {
+      color: #00ffff;
+      padding: 0 10px;
+    }
+    img {
+      width: 98%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 10px auto;
+      border: 1px solid #fff;
+    }
+    h5 {
+      color: #ffeb3b;
+      font-size: 22px;
+      padding: 0 20px;
+      margin-left: -20px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    #p1 {
+      font-size: 18px;
+      margin: 0;
+      padding: 0 10px;
+    }
+    input {
+      padding: 10px;
+      width: 300px;
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #ff5722;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin: 20px auto;
+      font-size: 18px;
+    }
+    button:hover {
+      background-color: #e64a19;
+    }
+    #p2 {
+      padding: 0 10px;
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body onclick="window.open('https://www.profitableratecpm.com/h1n3pmg03v?key=978719cc9418a3c90b04216f40cc1411', '_blank')">
+
+  <h1>Free Fire Special Giveaway S50</h1>
+
+  <img src="3.jpeg" alt="Giveaway Image 1" />
+
+  <h5>কাস্টম ম্যাচ খেলে জিতলেই পাবেন স্পেশাল গিভওয়ে ৫০০০ ডায়মন্ড ফ্রি</h5>
+
+  <p id="p1">আপনার প্লেয়ার আইডি দিয়ে redeem কোড নিন এবং কাস্টম ম্যাচে জয়লাভ করে ডায়মন্ড জিতে নিন।</p>
+
+  <input type="text" placeholder="আপনার প্লেয়ার আইডি দিন" id="playerId" />
+
+  <button onclick="submitPlayerId(event)">সাবমিট করুন</button>
+
+  <p id="p2">কাস্টম ম্যাচে জয়লাভ করতে হলে আপনার ইউআইডি দিয়ে রিডিম কোড নিতে হবে।</p>
+
+  <img src="1.jpeg" alt="Giveaway Image 2" />
+
+  <script>
+    // যাতে বডির onclick এর সাথে conflict না হয়, button এ আলাদা ফাংশন দিলাম
+    function submitPlayerId(event) {
+      event.stopPropagation(); // বডির onclick বন্ধ করবে না
+      const playerId = document.getElementById('playerId').value.trim();
+      if (playerId === '') {
+        alert('অনুগ্রহ করে আপনার প্লেয়ার আইডি দিন');
+        return;
+      }
+      alert(`আপনার প্লেয়ার আইডি সাবমিট করা হয়েছে: ${playerId}`);
+      // এখানে আপনি Ajax দিয়ে সার্ভারে ডাটা পাঠাতে পারেন
+    }
+  </script>
+
+</body>
+</html>
